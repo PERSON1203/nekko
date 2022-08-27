@@ -28,6 +28,16 @@
   color: #61dafb;
 }
 
+.drag-and-drop {
+  cursor: move;
+  position: absolute;
+  z-index: 1000;
+}
+
+.drag {
+  z-index: 1001;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
